@@ -28,7 +28,7 @@ def main():
 
         submit = st.form_submit_button("Predict Yield")
 
-    if st.button('Predict Yield'):
+    if submit:
 
         input_values = np.array([clonesize, honeybee, bumbles, andrena, osmia, AverageOfUpperTRange, AverageOfLowerTRange, AverageRainingDays]).reshape(1,-1)
 
