@@ -5,7 +5,7 @@ import pandas
 import numpy as np
 from prediction import predict_yield
 
-model = joblib.load(r'Linear_Regression_Optimum_Model.joblib')
+model = joblib.load(r'Model/Linear_Regression_Optimum_Model.joblib')
 
 st.set_page_config(page_title="Blueberry Yield Prediction",layout="wide")
 
