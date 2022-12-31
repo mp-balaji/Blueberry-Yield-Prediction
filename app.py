@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import sklearn
 import pandas
+import numpy as np
 from prediction import predict_yield
 
 model = joblib.load(r'Model/Linear_Regression_Optimum_Model')
