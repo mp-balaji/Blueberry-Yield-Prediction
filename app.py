@@ -3,10 +3,16 @@ import joblib
 import sklearn
 import pandas
 import numpy as np
-from prediction import predict_yield
+#from prediction import predict_yield
 
 model = joblib.load(r'Model/Linear_Regression_Optimum_Model.joblib')
 
+def predict_yield(input_values):
+    """
+    Predict the class of a given data point.
+    """
+    return model.predict(input_values)
+    
 st.set_page_config(page_title="Blueberry Yield Prediction",layout="wide")
 
 features = ['clonesize', 'honeybee', 'bumbles', 'andrena', 'osmia','AverageOfUpperTRange','AverageOfLowerTRange','AverageRainingDays']
