@@ -41,7 +41,7 @@ def main():
 
         pred = predict_yield(input_values)
 
-        st.success('The forecasted yield is {}'.format(round(pred,2))
+        st.success('The forecasted yield is {}'.format(round(pred,2)))
 
 if __name__ == '__main__':
 
