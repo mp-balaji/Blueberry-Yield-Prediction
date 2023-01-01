@@ -1,1 +1,1 @@
-# Road Traffic Accidents Severity Prediction app
+# Blueberry Yield Prediction Application
