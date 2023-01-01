@@ -39,9 +39,9 @@ def main():
 
         input_values = np.array([clonesize, honeybee, bumbles, andrena, osmia, AverageOfUpperTRange, AverageOfLowerTRange, AverageRainingDays]).reshape(1,-1)
 
-        pred = predict_yield(input_values)
+        pred = round(predict_yield(input_values),2)
 
-        st.success('The forecasted yield is {}'.format(round(pred,2)))
+        st.success('The forecasted yield is {}'.format(pred))
 
 if __name__ == '__main__':
 
