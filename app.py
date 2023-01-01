@@ -19,7 +19,7 @@ st.image(image, width=None, use_column_width=True, clamp=False, channels='RGB')
 
 
 def main():
-    with st.form('prediction_form'):
+    with st.form('prediction_form', background_image=image):
 
         st.header('Enter the input for following features:')
 
