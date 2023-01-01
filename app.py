@@ -13,11 +13,6 @@ features = ['clonesize', 'honeybee', 'bumbles', 'andrena', 'osmia','AverageOfUpp
 
 st.markdown("<h1 style='text-align: center;'>Blueberry Yield Prediction Application</h1>", unsafe_allow_html=True)
 
-from PIL import Image
-image = Image.open('Cover_Image.jpg')
-st.image(image, width=None, use_column_width=True, clamp=False, channels='RGB')
-
-
 def main():
     with st.form('prediction_form', background_image=image):
 
