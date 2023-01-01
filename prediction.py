@@ -1,9 +1,7 @@
 import joblib
 import numpy as np
 
-model = joblib.load(r'Model/Linear_Regression_Optimum_Model.joblib')
-
-def predict_yield(input_values):
+def predict_yield(input_values, model):
     """
     Predict the class of a given data point.
     """
