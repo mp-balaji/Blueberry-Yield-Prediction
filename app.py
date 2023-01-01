@@ -14,7 +14,7 @@ features = ['clonesize', 'honeybee', 'bumbles', 'andrena', 'osmia','AverageOfUpp
 st.markdown("<h1 style='text-align: center;'>Blueberry Yield Prediction Application</h1>", unsafe_allow_html=True)
 
 def main():
-    with st.form('prediction_form', background_image=image):
+    with st.form('prediction_form'):
 
         st.header('Enter the input for following features:')
 
