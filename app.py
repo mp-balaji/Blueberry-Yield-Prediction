@@ -15,7 +15,8 @@ st.markdown("<h1 style='text-align: center;'>Blueberry Yield Prediction Applicat
 
 from PIL import Image
 image = Image.open('Cover_Image.jpg')
-st.image(image)
+st.image(image, width=None, use_column_width=True, clamp=False, channels='RGB')
+
 
 def main():
     with st.form('prediction_form'):
